@@ -29,14 +29,14 @@ then
     exit 1
 fi
 
-dnf list installed mysql &>>$LOG_FILE_NAME
+dnf list installed nginx &>>$LOG_FILE_NAME
 
 if [ $? -ne 0 ]
 then
-    dnf install mysql -y &>>$LOG_FILE_NAME
-    VALIDATE $? "Installing MySQL"
+    dnf install nginx -y &>>$LOG_FILE_NAME
+    VALIDATE $? "Installing NGINX"
 else
-    echo -e "MySQL is already ... $Y INSTALLED $N"
+    echo -e "NGINX is already ... $Y INSTALLED $N"
 fi
 
 
