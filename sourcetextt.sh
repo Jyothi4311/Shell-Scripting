@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./Commontext.sh
+source ./commontext.sh
 
 SOURCE_DIR="/home/ec2-user/app-logs"
 echo "Script started executing at: $TIMESTAMP" &>>$LOG_FILE_NAME
