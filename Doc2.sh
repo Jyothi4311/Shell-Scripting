@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MSG="Document-2"
+MSG="Doc2"
 A="10"
 
 echo "Hello from: $MSG"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MSG="Document-11"
-GREET="Hi from Document-1"
+MSG="Doc1"
+GREET="Hi from Doc1"
 source ./Doc2.sh
 
 echo "Hello from: $MSG"
